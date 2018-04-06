@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+$primary-color: #0ABFF6;
+$base-body-color: #2D2C27;
+$light-body-color: #676762;
+$border-color: #d3d3d3;
+$rose-color:#FDEBE8;
+$beige-color:#F6E4D4;
+
+
+@import "base";
+@import "blocks/font";
+@import "blocks/header";
+@import "blocks/footer";
+
+section {
+    display: flex;
+    
+    align-items: center;  
+    margin: 30px 10px 30px 10px;
+}
+
+.section, .presentation{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $rose-color; 
+    border-color: $base-body-color;
+    border-width: 1px;
+    padding: 50px 50px 50px 50px; 
+    text-align: center;
+        
+}
+
+.section, .service {
+    border-color: $base-body-color;
+    border-width: 1px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.explanation{
+    background-color: $beige-color;
+    padding: 50px 50px 50px 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:auto;
+}
+
+
+
+
+.mmd-logo img{
+    width:270px;
+}
+
+.button {
+  border: 1px solid $border-color;
+  padding: 0.7em 1.2em;
+  border-radius: 3px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color:#127889;
+  text-decoration: none;
+}
