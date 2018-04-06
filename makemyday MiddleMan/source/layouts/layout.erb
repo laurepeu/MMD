@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Make My Day" %></title>
+    <%# <link type="image/ico" href="favicon.ico" rel="icon" /> %>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+  <header>
+    <%= stylesheet_link_tag "header" %>
+    <%= partial "partials/header"%>
+  </header>
+    <%= yield %>
+    <%= partial "partials/footer"%>
+  </body>
+</html>
