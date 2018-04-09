@@ -1,0 +1,10 @@
+reference:
+  name: ['Petit Building', 'La fabrique d effet', 'Land', 'Le rire du medecin', 'Label Bio']
+  contexte_petitbuilding: "Lancement de la start-up, plateforme collaborative autour du bricolage et de la décoration"
+  accompagnement_petitbuilding: ['Conception des outils de communication dossier de presse, contenu web, base iconographique', 'Stratégie de communication media globale via la presse spécialisée et les influenceurs', 'Optimisation de la présence de la marque et des porte-paroles sur les réseaux sociaux' ]
+  contexte_fabrique: "Création du premier concept-store Fleurs de saison & Vins biodynamiques de Paris"
+  accompagnement_fabrique: ['Conception des outils de communication (dossier de presse, contenu web, base iconographique)','Optimisation de la présence sur les Réseaux sociaux', 'Relation media basée sur le Story-telling autour de la reconversion des deux co-fondatrices (ancienne ingénieur chimiste et ex-journaliste) et du concept novateur']
+  contexte_bio: "Le label encore confidentiel souhaite communiquer autour de son palmarès annuel  de lauréats de la Bio dans l’agroalimentaire, l’entretien et la beauté"
+  accompagnement_bio: ['Conception d’un Dossier de Presse', 'Campagne de relations presse à l’issue de l’annonce du palmarès', 'Organisation et animation d’un Atelier presse en marge de la cérémonie de remise de prix', 'Suivi des retombées presse nationales, régionales et internationales autour des lauréats 2017']
+  contexte_medecin: " L’association d’intérêt public traverse une crise financière après 26 ans d’existence et veut dynamiser sa notoriété dans un environnement concurrentiel."
+  accompagnement_medecin: ['Elaboration d’une stratégie médiatique innovante visant à repositionner l’association vers une cible plus jeune, plus féminine, plus active', 'Conseil éditorial création de contenus pour le journal aux donateurs, la refonte du site web', 'Media training des porte-paroles', 'Mise en relation en one-to-one avec des représentants des medias phares', 'Suivi des relations presse au quotidien dans un accompagnement annuel']
