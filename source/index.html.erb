@@ -3,10 +3,12 @@ title: Make My Day agence presse
 ---
 
 <section class="presentation">
-  <h2> <%= data.agence.presentation.one %> </h2>
+  <h2 id="msg"></h2>
   <p>  <%= data.agence.presentation.second %> </p>
   <%= link_to "En savoir plus", "/pages/expertise.html", class: "button" %>
 </section>
+
+
 
 <section class="service">
     <div class="mmd-logo">
@@ -22,7 +24,6 @@ title: Make My Day agence presse
       <h1>Media Training</h1>  
         <p> <%= data.agence.service.media %> </p>
       <h1>Evenementiel</h1>
-        <p> <%= data.agence.service.event %> </p>
-        
+        <p> <%= data.agence.service.event %> </p>  
   </div>
 </section>

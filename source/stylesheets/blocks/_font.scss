@@ -1,9 +1,11 @@
+/* Utilisation de la police "regular" */
 @font-face {
-	font-family: "articulat";
-	src: url('images/ArticulatThin.otf');
+	font-family: 'articulat';
+	src: url('/images/ArticulatMedium.ttf');
 }
-
+/* Utilisation de la police "Light" */
 @font-face {
-	font-family: "articulat_medium";
-	src: url('images/ArticulatMedium.otf');
-}
+	font-family: 'articulat';
+	font-weight: lighter;
+	src: url('/images/fonts/ArticulatLight.otf');
+	}

@@ -1,14 +1,25 @@
 /* Main navbar */
+
+body {
+  font-family: 'articulat';
+  font-weight: lighter;
+  color: $base-body-color;
+  line-height: 1.5;
+  font-size: 17px;
+}
 .navbar-wagon {
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
     background: white;
     transition: all 0.3s ease;
     height: 70px;
     padding: 0px 30px;
+    position:fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: "articulat_medium";
+    font-family: "articulat";
   }
   
   /* Logo */
@@ -48,7 +59,7 @@
   
   /* Dropdown menu */
   .navbar-wagon-dropdown-menu {
-    margin-top: 15px;
+    margin-top: 5px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6;
   }
