@@ -2,28 +2,131 @@
 title: Make My Day agence presse
 ---
 
-<section class="presentation">
-  <h2 id="msg"></h2>
-  <p>  <%= data.agence.presentation.second %> </p>
-  <%= link_to "En savoir plus", "/pages/expertise.html", class: "button" %>
-</section>
-
-
-
-<section class="service">
-    <div class="mmd-logo">
-      <%= image_tag 'logommd.png' %>
-    </div>
-    <div class="explanation">
-      <h1>Stratégie Media</h1>
-        <p> <%= data.agence.service.strategie %> </p>
-      <h1>Rédaction de contenu</h1>
-        <p> <%= data.agence.service.contenu %> </p>
-      <h1>Réseaux sociaux</h1>  
-        <p> <%= data.agence.service.reseaux %> </p>
-      <h1>Media Training</h1>  
-        <p> <%= data.agence.service.media %> </p>
-      <h1>Evenementiel</h1>
-        <p> <%= data.agence.service.event %> </p>  
+<section class="logo">
+  <div class="big-logo">
+    <%= image_tag 'logommd.png' %>
   </div>
 </section>
+
+<section class="catchphrase">
+  <div id="msg">
+  </div>
+</section>
+
+<section class="prequelle">
+  <div class="row">
+    <div class="col-lg-4" style="margin-bottom: 20px;">
+      <img src="/images/sclarque.jpeg" alt="image" class="img-responsive center-block" />
+    </div>
+    <div class="col-lg-8">
+      <p class="bio"> <%= data.prequelle.presentation.biographie %> </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="expertises">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="animated-words">
+          <span>L'environnement</span>
+          <span>La consommation responsable</span>
+          <span>L'écologie</span>
+          <span>L'univers du Bio</span>
+          <span>L'univers famille-enfant</span>
+          <span>L'éducation</span>
+          <span>Les initiatives</span>
+          <span>les projets</span>
+          <span>La dynamique au féminin</span>
+          <span>L'humanitaire</span>
+          <span>La solidarité</span>
+          <span>L'économie collaborative</span>
+          <span>Les tendances lifestyle</span>
+          <span>Le tourisme</span>
+          <span>Le luxe</span>
+          <span>la gastronomie </span>    
+        </div>    
+      </div>  
+    </div>
+  </div>  
+</section>
+
+<section class="references">
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div id="ref">
+        <img src="/images/labelbio.png" alt="image" class="img-responsive center-block" />
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div id="ref">
+        <img src="/images/Ptit_Building.png" alt="image" class="img-responsive center-block" />
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div id="ref">
+        <img src="/images/riremedecing.png" alt="image" class="img-responsive center-block" />
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div id="ref">
+        <img src="/images/lafabrique.png" alt="image" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="/images/Ptit_Building" alt="image" class="img-responsive center-block" />
+    </div>
+    <div class="col-lg-8">
+      <div class="first_ref">
+        <h1> <%= data.references.reference.name[0] %> </h1>
+          <p> <%= data.references.reference.contexte_petitbuilding %> </p>
+          <p> <%= data.references.reference.accompagnement_petitbuilding %> </p>
+      </div>
+    </div>  
+  </div> 
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="/images/lafabrique.png" alt="image" class="img-responsive center-block" />
+    </div>
+    <div class="col-lg-8">
+      <div class="second_ref">
+        <h1> <%= data.references.reference.name[1] %> </h1>
+          <p> <%= data.references.reference.contexte_fabrique%> </p>
+          <p> <%= data.references.reference.accompagnement_fabrique %> </p>
+      </div>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="/images/labelbio.png" alt="image" class="img-responsive center-block" />
+    </div>
+    <div class="col-lg-8">
+      <div class="third_ref">
+        <h1> <%= data.references.reference.name[2] %> </h1>
+          <p> <%= data.references.reference.contexte_bio %> </p>
+          <p> <%= data.references.reference.accompagnement_bio %> </p>
+      </div>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="/images/riremedecing.png" alt="image" class="img-responsive center-block" />
+    </div> 
+    <div class="col-lg-8">
+      <div class="fourth_ref">
+        <h1> <%= data.references.reference.name[3] %> </h1>
+          <p> <%= data.references.reference.contexte_medecin %> </p>
+          <p> <%= data.references.reference.accompagnement_medecin %> </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+

@@ -15,55 +15,203 @@ $beige-color:#F6E4D4;
 
 section {
     display: flex;
-    
     align-items: center;  
     margin: 30px 10px 30px 10px;
+    padding: 100px 50px 50px 50px;
 }
 
-.section, .presentation{
-    flex-wrap: wrap;
+.big-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg {
+    font-family: 'articulat';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+
+
+// PREQUELLE
+
+.bio {
+    font-size: 20px;
+}
+// EXPERTISES STYLE
+
+.animated-words {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    background-color: $rose-color; 
-    border-color: $base-body-color;
-    border-width: 1px;
-    padding: 50px 50px 50px 50px; 
-    text-align: center;
-        
-}
-
-.section, .service {
-    border-color: $base-body-color;
-    border-width: 1px;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.explanation{
-    background-color: $beige-color;
-    padding: 50px 50px 50px 50px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width:auto;
+.animated-words span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.animated-words span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+    -ms-animation-delay: 6s; 
+    animation-delay: 6s; 
+    font-weight: bolder;
+    font-size: 80px;
+    color: #F73859;
+}
+
+.animated-words span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+}
+
+.animated-words span:nth-child(5) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-weight: lighter;
+}
+
+.animated-words span:nth-child(6) { 
+    -webkit-animation-delay: 2s; 
+    -ms-animation-delay: 2s; 
+    animation-delay: 2s; 
+    font-size: 30px;
+}
+
+.animated-words span:nth-child(7) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-size: 50px;
+    color: #F73859;
+}
+
+.animated-words span:nth-child(8) { 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 4s; 
+    font-size: 30px;
+}
+.animated-words span:nth-child(9) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-size: 10px;
+    font-weight: lighter;
+}
+.animated-words span:nth-child(10) { 
+    -webkit-animation-delay: 7s; 
+    -ms-animation-delay: 7s; 
+    animation-delay: 7s; 
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F73859;
+}
+
+.animated-words span:nth-child(11) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.animated-words span:nth-child(12) { 
+    -webkit-animation-delay: 5s; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 5s; 
+    font-size: 30px;
+}
+
+.animated-words span:nth-child(13) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+    font-size: 30px;
+}
+
+.animated-words span:nth-child(14) { 
+    -webkit-animation-delay: 5s; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 5s; 
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.animated-words span:nth-child(15) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-size: 25px;
+}
+
+.animated-words span:nth-child(16) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-weight: bolder;
+    font-size: 80px;
+}
+.animated-words span {
+    opacity: 0;
+    margin: 0 10px 0 10px;
+    -webkit-animation: animateWord 18s linear infinite 0s;
+    -ms-animation: animateWord 18s linear infinite 0s;
+    animation: animateWord 18s linear infinite 0s;
+}
+
+@-webkit-keyframes animateWord {
+    0% { opacity: 0.3; }
+    2% { opacity: 0.4; }
+    5% { opacity: 0.5; }
+    17% { opacity: 0.6; }
+    20% { opacity: 0.7; }
+    80% { opacity: 0.8; }
+    100% { opacity: 1; }
 }
 
 
+// REFERENCES STYLE
 
 
-.mmd-logo img{
-    width:270px;
-}
 
-.button {
-  border: 1px solid $border-color;
-  padding: 0.7em 1.2em;
-  border-radius: 3px;
-  font-size: 14px;
-  display: inline-block;
-  vertical-align: middle;
-  background-color:#127889;
-  text-decoration: none;
-}
+  #ref {
+    margin: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  // RESPONSIVE DESIGN 
+
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
