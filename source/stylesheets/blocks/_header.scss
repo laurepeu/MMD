@@ -1,9 +1,11 @@
 /* Main navbar */
+$rose-color:#F73859;;
+$black: black;
 
 body {
   font-family: 'articulat';
   font-weight: lighter;
-  color: $base-body-color;
+  color: $black;
   line-height: 1.5;
   font-size: 17px;
 }
@@ -54,7 +56,7 @@ body {
     font-size: 14px;
   }
   .navbar-wagon-link:hover {
-    color: #da552f;
+    color: $rose-color;
     text-decoration: none;
   }
   
@@ -89,4 +91,11 @@ body {
     border-top: 1px solid #E6E6E6;
   }
 
-  
+  #contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }

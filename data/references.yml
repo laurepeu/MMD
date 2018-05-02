@@ -1,4 +1,6 @@
 reference:
+  context: "Contexte"
+  accompagnement: "Accompagnement"
   name: ['Petit Building', 'La fabrique d effet', 'Label Bio', 'Le rire du medecin', 'Land']
   contexte_petitbuilding: "Lancement de la start-up, plateforme collaborative autour du bricolage et de la décoration"
   accompagnement_petitbuilding: ['Conception des outils de communication dossier de presse, contenu web, base iconographique', 'Stratégie de communication media globale via la presse spécialisée et les influenceurs', 'Optimisation de la présence de la marque et des porte-paroles sur les réseaux sociaux' ]

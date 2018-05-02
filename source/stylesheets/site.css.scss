@@ -4,7 +4,7 @@ $primary-color: #0ABFF6;
 $base-body-color: #2D2C27;
 $light-body-color: #676762;
 $border-color: #d3d3d3;
-$rose-color:#FDEBE8;
+$rose-color:#F73859;;
 $beige-color:#F6E4D4;
 
 
@@ -16,8 +16,8 @@ $beige-color:#F6E4D4;
 section {
     display: flex;
     align-items: center;  
-    margin: 30px 10px 30px 10px;
-    padding: 100px 50px 50px 50px;
+    margin: 15px 8px 10px 8px;
+    padding: 40px 15px 40px 15px;
 }
 
 .big-logo{
@@ -32,6 +32,9 @@ section {
     text-align: justify;
 }
 
+.svg{ 
+    margin: 10px 10px;
+}
 
 
 // PREQUELLE
@@ -56,12 +59,12 @@ section {
 }
 
 .animated-words span:nth-child(3) { 
-    -webkit-animation-delay: 6s; 
-    -ms-animation-delay: 6s; 
-    animation-delay: 6s; 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 4s; 
     font-weight: bolder;
     font-size: 80px;
-    color: #F73859;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(4) { 
@@ -71,23 +74,23 @@ section {
 }
 
 .animated-words span:nth-child(5) { 
-    -webkit-animation-delay: 8s; 
-    -ms-animation-delay: 8s; 
-    animation-delay: 8s; 
+    -webkit-animation-delay: 85; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 6s; 
     font-weight: lighter;
 }
 
 .animated-words span:nth-child(6) { 
     -webkit-animation-delay: 2s; 
     -ms-animation-delay: 2s; 
-    animation-delay: 2s; 
+    animation-delay: 6s; 
     font-size: 30px;
 }
 
 .animated-words span:nth-child(7) { 
-    -webkit-animation-delay: 8s; 
-    -ms-animation-delay: 8s; 
-    animation-delay: 8s; 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 6s; 
     font-size: 50px;
     color: #F73859;
 }
@@ -95,7 +98,7 @@ section {
 .animated-words span:nth-child(8) { 
     -webkit-animation-delay: 4s; 
     -ms-animation-delay: 4s; 
-    animation-delay: 4s; 
+    animation-delay: 6s; 
     font-size: 30px;
 }
 .animated-words span:nth-child(9) { 
@@ -106,9 +109,9 @@ section {
     font-weight: lighter;
 }
 .animated-words span:nth-child(10) { 
-    -webkit-animation-delay: 7s; 
-    -ms-animation-delay: 7s; 
-    animation-delay: 7s; 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 4s; 
     font-size: 40px;
     font-weight: bolder;
     color: #F73859;
@@ -179,14 +182,17 @@ section {
 
 // REFERENCES STYLE
 
-  #grow { 
+    #grow { 
       transition: all .2s ease-in-out; 
       margin: 40px 40px 40px 40px;
       }
-  #grow:hover { 
+    #grow:hover { 
       transform: scale(1.5); 
       margin: 20px 20px 20px 20px;
       }
+
+
+
 
   // RESPONSIVE DESIGN 
 

@@ -9,7 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: normal;
-    line-height: 1.1;
+    line-height: 2;
   }
   
   a {
@@ -20,4 +20,30 @@ h1, h2, h3, h4, h5, h6 {
       color: rgba(#000, 0.6);
     }
   }
-  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row > [class^="col-"],
+  .row > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+}
+
+
+h3 {
+  color: $rose-color;
+  letter-spacing: 10px;
+}
+
+h1 {
+  margin: 15px 0;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+mark {
+    color: $rose-color;
+    background-color: white;
+  }
