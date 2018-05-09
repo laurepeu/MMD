@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    $('#big-logo').hide().fadeIn(3000);
+});
+
 var showText = function (target, message, index, interval) {    
   if (index < message.length) { 
     $(target).append(message[index++]); 
@@ -162,4 +166,6 @@ jQuery.fn.circleType = function(options) {
         }
     });
 };
+
+//Code....
 

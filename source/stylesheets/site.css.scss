@@ -20,10 +20,17 @@ section {
     padding: 40px 15px 40px 15px;
 }
 
-.big-logo{
+.firstlogo{
+    margin-top: 100px;
+}
+
+#big-logo{
     margin-left: auto;
     margin-right: auto;
+    height: 300px;
+
 }
+
 
 #msg {
     font-family: 'articulat';
@@ -32,8 +39,7 @@ section {
     text-align: justify;
     font-size: 30px;
     margin: 0 40px;
-    line-height: 80px;
-
+    line-height: 50px;
 }
 
 .svg{ 
