@@ -11,7 +11,7 @@ var showText = function (target, message, index, interval) {
     
 $(function () { 
  
-  showText("#msg", "Make My Day accompagne les PME, les TPE, les indépendants et les associations dans la promotion de leur image, l’élaboration d’une stratégie médiatique et la mise en place de relations presse.", 0, 20);    
+  showText("#msg", "Make My Day accompagne les PME, les TPE, les indépendants et les associations dans la promotion de leur image, l’élaboration d’une stratégie médiatique et la mise en place de relations presse.", 0, 60);    
  
 }); 
 

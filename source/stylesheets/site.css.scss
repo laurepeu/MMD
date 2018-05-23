@@ -4,7 +4,7 @@ $primary-color: #0ABFF6;
 $base-body-color: #2D2C27;
 $light-body-color: #676762;
 $border-color: #d3d3d3;
-$rose-color:#F73859;;
+$rose-color: #AE513B;
 $beige-color:#F6E4D4;
 
 
@@ -56,14 +56,24 @@ section {
 }
 
 
+#medecin, #label, #fabrique, #building{
+    text-align: justify;
+
+}
+#sdore {
+    width: 300px;
+    height: 400px;
+}
+
 #msg {
     font-family: 'articulat';
     font-weight: lighter;
     letter-spacing: 3px;
     text-align: justify;
     font-size: 30px;
-    margin: 0 40px;
+    margin: 0 50px;
     line-height: 50px;
+    color: $rose-color;
 }
 
 .svg{ 
@@ -75,6 +85,13 @@ section {
 
 .bio {
     font-size: 20px;
+    text-align: justify;
+}
+
+
+#send-button{
+    color: white;
+    background-color: $rose-color;
 }
 // EXPERTISES STYLE
 
@@ -82,14 +99,16 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .animated-words span:nth-child(2) { 
     -webkit-animation-delay: 3s; 
     -ms-animation-delay: 3s; 
     animation-delay: 3s; 
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 35px;
+    font-weight: normal;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(3) { 
@@ -126,14 +145,14 @@ section {
     -ms-animation-delay: 3s; 
     animation-delay: 6s; 
     font-size: 50px;
-    color: #F73859;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(8) { 
     -webkit-animation-delay: 4s; 
     -ms-animation-delay: 4s; 
     animation-delay: 6s; 
-    font-size: 30px;
+
 }
 .animated-words span:nth-child(9) { 
     -webkit-animation-delay: 8s; 
@@ -148,7 +167,7 @@ section {
     animation-delay: 4s; 
     font-size: 40px;
     font-weight: bolder;
-    color: #F73859;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(11) { 
@@ -157,6 +176,7 @@ section {
     animation-delay: 3s; 
     font-size: 50px;
     font-weight: bolder;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(12) { 
@@ -164,6 +184,7 @@ section {
     -ms-animation-delay: 5s; 
     animation-delay: 5s; 
     font-size: 30px;
+    
 }
 
 .animated-words span:nth-child(13) { 
@@ -264,9 +285,13 @@ section {
         max-width: 200px;
         max-height: 200px;
     }
+
   }
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
     }
   }
+
+
+
