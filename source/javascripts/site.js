@@ -2,6 +2,13 @@ $(document).ready(function () {
     $('#big-logo').hide().fadeIn(10000);
 });
 
+
+$(document).ready(function () {
+    $('#logo-letter').hide().fadeIn(10000);
+});
+
+
+
 var showText = function (target, message, index, interval) {    
   if (index < message.length) { 
     $(target).append(message[index++]); 

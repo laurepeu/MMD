@@ -13,6 +13,34 @@ $beige-color:#F6E4D4;
 @import "blocks/header";
 @import "blocks/footer";
 
+
+
+
+#logo-letter {
+    height:8px;
+    line-height:16px;
+    
+    position:relative;
+    
+}
+#logo-letter > span{
+    float:left;
+    -webkit-transform: rotate(-86.6528deg);
+    border-bottom:1px solid green;  
+
+}​
+
+span a {
+    -webkit-transform: rotate(-86.6528deg);
+    border-bottom:1px solid green;  
+
+}
+
+span b{
+    -webkit-transform: rotate(-86.6528deg);
+    border-bottom:1px solid red;  
+}
+
 .flex{
     display: flex;
     flex-wrap: rowrap;
@@ -66,8 +94,8 @@ section {
 }
 
 #msg {
-    font-family: 'articulat';
-    font-weight: lighter;
+    font-family: 'articulat-thin';
+    font-weight: thin;
     letter-spacing: 3px;
     text-align: justify;
     font-size: 30px;
@@ -158,7 +186,7 @@ section {
     -webkit-animation-delay: 8s; 
     -ms-animation-delay: 8s; 
     animation-delay: 8s; 
-    font-size: 10px;
+    font-size: 20px;
     font-weight: lighter;
 }
 .animated-words span:nth-child(10) { 
@@ -207,6 +235,7 @@ section {
     -ms-animation-delay: 8s; 
     animation-delay: 8s; 
     font-size: 25px;
+    font-family: articulat-thin;
 }
 
 .animated-words span:nth-child(16) { 
@@ -222,6 +251,7 @@ section {
     -webkit-animation: animateWord 18s linear infinite 0s;
     -ms-animation: animateWord 18s linear infinite 0s;
     animation: animateWord 18s linear infinite 0s;
+    font-family: articulat-thin;
 }
 
 @-webkit-keyframes animateWord {
