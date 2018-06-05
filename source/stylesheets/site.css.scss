@@ -93,7 +93,31 @@ section {
     height: 400px;
 }
 
-#msg {
+#msg1 {
+    font-family: 'articulat-thin';
+    font-weight: thin;
+    letter-spacing: 3px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 50px;
+    line-height: 50px;
+    color: $rose-color;
+    text-align: center;
+}
+
+#msg2 {
+    font-family: 'articulat-thin';
+    font-weight: thin;
+    letter-spacing: 3px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 50px;
+    line-height: 50px;
+    color: $rose-color;
+    text-align: center;
+}
+
+#msg3 {
     font-family: 'articulat-thin';
     font-weight: thin;
     letter-spacing: 3px;
@@ -102,8 +126,8 @@ section {
     margin: 0 50px;
     line-height: 50px;
     color: $rose-color;
+    text-align: center;
 }
-
 .svg{ 
     margin: 10px 10px;
 }
@@ -112,7 +136,7 @@ section {
 // PREQUELLE
 
 .bio {
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -123,6 +147,18 @@ section {
 }
 // EXPERTISES STYLE
 
+
+
+// MANIFESTE 
+
+.questions {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.answers {
+    font-size: 15px;
+}
 .animated-words {
     display: flex;
     flex-direction: row;
@@ -314,10 +350,6 @@ section {
     .img{
         max-width: 200px;
         max-height: 200px;
-    }
-
-    #msg{
-        font-size: 20px;
     }
 
   }

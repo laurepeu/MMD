@@ -9,6 +9,7 @@ $(document).ready(function () {
 
 
 
+
 var showText = function (target, message, index, interval) {    
   if (index < message.length) { 
     $(target).append(message[index++]); 
@@ -19,9 +20,21 @@ var showText = function (target, message, index, interval) {
 
 $(function () { 
  
-  showText("#msg", "Make My Day accompagne les PME, les TPE, les indépendants et les associations dans la promotion de leur image, l’élaboration d’une stratégie médiatique et la mise en place de relations presse.", 0, 60);    
+  showText("#msg1", "D’abord on va se rencontrer et vous allez vous raconter" , 0, 60);    
  
 }); 
+
+$(function () { 
+ 
+    showText("#msg2", "Ensuite on va vous accompagner, on va vous révéler, et vous allez tout gagner ! ", 0, 60);    
+   
+  }); 
+
+  $(function () { 
+ 
+    showText("#msg3", "Allez ! Go ahead… Make My Day ! ", 0, 60);    
+   
+  }); 
 
 
 jQuery.fn.circleType = function(options) {
