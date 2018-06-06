@@ -87,6 +87,7 @@ section {
 #medecin, #label, #fabrique, #building{
     text-align: justify;
 
+
 }
 #sdore {
     width: 300px;
@@ -157,6 +158,8 @@ section {
     font-size: 20px;
     text-align: center;
     margin-bottom: 40px;
+    color : $rose-color;
+    font-family: 'articulat-thin';
 }
 .questions {
     font-style: italic;
@@ -323,7 +326,87 @@ section {
 
 
   // RESPONSIVE DESIGN 
+// IPHONE /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      
+    .container {
+        width: 750px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+      }
+      #sdore {
+          width: 150px;
+          height: 200px;
+      }
 
+      .container {
+        width: 970px;
+      }
+  
+      .flex{
+          display: flex;
+          flex-wrap: wrap;
+          flex-shrink: 1;
+          justify-content: center;
+      }
+      
+      .flex-reverse{
+          display: flex;
+          flex-direction: column-reverse;
+          flex-wrap: wrap;
+          flex-shrink: 1;
+          justify-content: center;
+      }
+  
+      .img{
+          max-width: 200px;
+          max-height: 200px;
+      }
+  
+      #sdore {
+          width: 150px;
+          height: 200px;
+      }
+      #medecin, #label, #fabrique, #building{
+        text-align: justify;
+        width: 350px;
+    }
+}
+
+// Galaxy Phone 
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+    .container {
+        width: 750px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+      }
+      #sdore {
+          width: 150px;
+          height: 200px;
+      }
+      #medecin, #label, #fabrique, #building{
+        text-align: justify;
+        width: 350px;
+    }
+
+}
+
+
+/// MEDIA 768 px 
   @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -332,8 +415,17 @@ section {
       margin-right: auto;
       text-align: justify;
     }
-
+    #sdore {
+        width: 150px;
+        height: 200px;
+    }
+    #medecin, #label, #fabrique, #building{
+        text-align: justify;
+        width: 350px;
+    }
   }
+
+// MEDIA 992 px 
   @media (max-width: 992px) {
     .container {
       width: 970px;
@@ -359,11 +451,28 @@ section {
         max-height: 200px;
     }
 
+    #sdore {
+        width: 150px;
+        height: 200px;
+    }
+
+    #medecin, #label, #fabrique, #building{
+        text-align: justify;
+        width: 350px; 
+    }
   }
+
+  // MEDIA 1200 px 
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
     }
+
+    #sdore {
+        width: 150px;
+        height: 200px;
+    }
+
   }
 
 
