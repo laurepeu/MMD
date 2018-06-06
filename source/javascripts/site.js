@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $('#big-logo').hide().fadeIn(10000);
 });
@@ -8,33 +9,59 @@ $(document).ready(function () {
 });
 
 
+// $(document).ready(function () {
+//     $('#msg1').hide().fadeIn(400);
+// });
 
 
-var showText = function (target, message, index, interval) {    
+// $(document).ready(function () {
+//     $('#msg2').hide().fadeIn(8000);
+// });
+
+
+$(document).ready(function () {
+    $('#msg3').hide().fadeIn(20000);
+});
+
+var showText1 = function (target, message, index, interval) {    
   if (index < message.length) { 
     $(target).append(message[index++]); 
-    setTimeout(function () { showText(target, message, index, interval); }, interval); 
+    setTimeout(function () { showText1(target, message, index, interval); },80); 
   } 
 }
-    
+
+var showText2 = function (target, message, index, interval) {    
+    if (index < message.length) { 
+      $(target).append(message[index++]); 
+      setTimeout(function () { showText2(target, message, index, interval); },100); 
+    } 
+  }
+
+// var showText3 = function (target, message, index, interval) {    
+//   if (index < message.length) { 
+//     $(target).append(message[index++]); 
+//     setTimeout(function () { showText3(target, message, index, interval); },1500); 
+//   } 
+// }
+
 
 $(function () { 
  
-  showText("#msg1", "D’abord on va se rencontrer et vous allez vous raconter" , 0, 60);    
+  showText1("#msg1", "D’abord on va se rencontrer et vous allez vous raconter" , 0, 2000);    
  
 }); 
 
 $(function () { 
  
-    showText("#msg2", "Ensuite on va vous accompagner, on va vous révéler, et vous allez tout gagner ! ", 0, 60);    
+    showText2("#msg2", "Ensuite on va vous accompagner, on va vous révéler, et vous allez tout gagner ! ", 0, 2000);    
    
   }); 
 
-  $(function () { 
+//   $(function () { 
  
-    showText("#msg3", "Allez ! Go ahead… Make My Day ! ", 0, 60);    
+//     showText3("#msg3", "Allez ! Go ahead… Make My Day ! ");    
    
-  }); 
+//   }); 
 
 
 jQuery.fn.circleType = function(options) {

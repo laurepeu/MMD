@@ -123,8 +123,8 @@ section {
     font-weight: thin;
     letter-spacing: 3px;
     text-align: justify;
-    font-size: 30px;
-    margin: 0 50px;
+    font-size: 50px;
+    margin: 20px 50px;
     line-height: 50px;
     color: $rose-color;
     text-align: center;
@@ -205,6 +205,7 @@ section {
     -ms-animation-delay: 5s; 
     animation-delay: 6s; 
     font-weight: lighter;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(6) { 
@@ -212,6 +213,7 @@ section {
     -ms-animation-delay: 2s; 
     animation-delay: 6s; 
     font-size: 30px;
+    color: $rose-color;
 }
 
 .animated-words span:nth-child(7) { 
@@ -258,6 +260,7 @@ section {
     -ms-animation-delay: 5s; 
     animation-delay: 5s; 
     font-size: 30px;
+    color: $rose-color;
     
 }
 
@@ -310,6 +313,12 @@ section {
     100% { opacity: 1; }
 }
 
+FORM 
+
+    #contact_form {
+    height: 200px;
+    width: 400px;
+}
 
 // REFERENCES STYLE
 
@@ -375,7 +384,16 @@ section {
       }
       #medecin, #label, #fabrique, #building{
         text-align: justify;
-        width: 350px;
+        width: 270px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    #contact_form {
+        height: 100px;
+        width: 300px;
     }
 }
 
@@ -400,9 +418,12 @@ section {
       }
       #medecin, #label, #fabrique, #building{
         text-align: justify;
-        width: 350px;
+        width: 270px;
     }
 
+    h3 {
+        font-size: 18px;
+    }
 }
 
 
@@ -421,8 +442,12 @@ section {
     }
     #medecin, #label, #fabrique, #building{
         text-align: justify;
-        width: 350px;
     }
+
+    h3 {
+        font-size: 18px;
+    }
+    
   }
 
 // MEDIA 992 px 
@@ -456,9 +481,16 @@ section {
         height: 200px;
     }
 
+    #msg1, #msg2, #msg3 {
+        margin: 0;
+    }
     #medecin, #label, #fabrique, #building{
         text-align: justify;
-        width: 350px; 
+        width: 270px;
+    }
+
+    h3 {
+        font-size: 18px;
     }
   }
 
@@ -469,8 +501,11 @@ section {
     }
 
     #sdore {
-        width: 150px;
-        height: 200px;
+        width: 300px;
+        height: 400px;
+    }
+    h3 {
+        font-size: 18px;
     }
 
   }
