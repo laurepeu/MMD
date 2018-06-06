@@ -9,16 +9,6 @@ $(document).ready(function () {
 });
 
 
-// $(document).ready(function () {
-//     $('#msg1').hide().fadeIn(400);
-// });
-
-
-// $(document).ready(function () {
-//     $('#msg2').hide().fadeIn(8000);
-// });
-
-
 $(document).ready(function () {
     $('#msg3').hide().fadeIn(20000);
 });
@@ -37,14 +27,6 @@ var showText2 = function (target, message, index, interval) {
     } 
   }
 
-// var showText3 = function (target, message, index, interval) {    
-//   if (index < message.length) { 
-//     $(target).append(message[index++]); 
-//     setTimeout(function () { showText3(target, message, index, interval); },1500); 
-//   } 
-// }
-
-
 $(function () { 
  
   showText1("#msg1", "D’abord on va se rencontrer et vous allez vous raconter" , 0, 2000);    
@@ -56,12 +38,6 @@ $(function () {
     showText2("#msg2", "Ensuite on va vous accompagner, on va vous révéler, et vous allez tout gagner ! ", 0, 2000);    
    
   }); 
-
-//   $(function () { 
- 
-//     showText3("#msg3", "Allez ! Go ahead… Make My Day ! ");    
-   
-//   }); 
 
 
 jQuery.fn.circleType = function(options) {
