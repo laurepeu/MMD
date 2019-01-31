@@ -61,7 +61,6 @@ title: Make My Day Relation Presse
 
 <section class="expertises">
   <div class="container">
-  <h6> Expertises</h6>
     <div class="row">
       <div class="animated-words">
           <span>L'environnement</span>
@@ -110,65 +109,59 @@ title: Make My Day Relation Presse
         <a href="#fabrique"> <img src="/images/fabriqueeffets.png" alt="la fabrique d'effets" class="img-responsive center-block" /></a>
       </div>
     </div>
-    <%# <div class="col-lg-3">
+    <div class="col-lg-3">
       <div id="grow">
         <a href="#land"> <img src="/images/land.jpg" alt="land territoires" class="img-responsive center-block" /></a>
       </div>
     </div>
-    <div class="col-lg-3">
-      <div id="grow">
-        <a href="#noir"> <img src="/images/danslenoir.jpg" alt="Dans le noir" class="img-responsive center-block" /></a>
-      </div>
-    </div> %>
   </div>
 </section>
 
 <section class=references>
 <div class="container">
-  <div class="flex" style="margin-bottom:20px">
-    <div class="col-lg-4 ">
-      <img src="/images/Ptit_Building.png" alt="image" class="img-responsive center-block" />
+    <div class="flex-reverse" style="margin-bottom:20px">
+        <div class="col-xs-12 col-lg-8">
+          <div id="medecin">
+            <h1> <%= data.references.reference.name[3] %> </h1>
+            <h3> <%= data.references.reference.context %> </h3>
+              <p> <%= data.references.reference.contexte_medecin %> </p>
+              <br>
+              <br>
+            <h3> <%= data.references.reference.accompagnement %> </h3>
+              <p> <%= data.references.reference.accompagnement_medecin[0] %> 
+              <br> <%= data.references.reference.accompagnement_medecin[1]%>           
+              <br> <%= data.references.reference.accompagnement_medecin[2]%>  
+              <br> <%= data.references.reference.accompagnement_medecin[3]%>
+              <br> <%= data.references.reference.accompagnement_medecin[4]%> </p>
+              <p> Retrouver les retombées presse sur le site du Rire Médecin <a href="https://www.leriremedecin.org/nos-actualites/espace-presse/les-medias-en-parlent.html" target=_blank> ici. </a> </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <img src="/images/riremedecin.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
+        </div> 
     </div>
-    <div class="col-xs-12 col-lg-8 ">
-      <div id="building">
-        <h1> <%= data.references.reference.name[0] %> </h1>
-        <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_petitbuilding %> </p>
-          <br>
-          <br>
-        <h3> <%= data.references.reference.accompagnement %> </h3>
-          <p> <%= data.references.reference.accompagnement_petitbuilding[0]%> 
-          <br>  <%= data.references.reference.accompagnement_petitbuilding[1]%>
-          <br> <%= data.references.reference.accompagnement_petitbuilding[2]%>
-          <br> <%= data.references.reference.accompagnement_petitbuilding[3]%>
-          <br> <%= data.references.reference.accompagnement_petitbuilding[4]%></p>
-      </div>
-    </div>  
+    <div class="flex-reverse" style="margin-bottom:20px">
+    <div class="col-lg-4">
+    <img src="https://www.agenceland.com/img/landlogonoir.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
   </div> 
-  <div class="flex-reverse" style="margin-bottom:20px">
     <div class="col-xs-12 col-lg-8">
-      <div id="fabrique">
-        <h1> <%= data.references.reference.name[1] %> </h1>
+      <div id="medecin">
+        <h1> <%= data.references.reference.name[4] %> </h1>
         <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_fabrique%> </p>
+          <p> <%= data.references.reference.contexte_land %> </p>
           <br>
           <br>
         <h3> <%= data.references.reference.accompagnement %> </h3>
-          <p> <%= data.references.reference.accompagnement_fabrique[0] %> 
-            <br> <%= data.references.reference.accompagnement_fabrique[1] %>
-            <br> <%= data.references.reference.accompagnement_fabrique[2] %> 
-            <br> <%= data.references.reference.accompagnement_fabrique[3] %> 
-            <br> <%= data.references.reference.accompagnement_fabrique[4] %> </p>
+          <p> <%= data.references.reference.accompagnement_land[0] %> 
+          <br> <%= data.references.reference.accompagnement_land[1]%>           
+          <br> <%= data.references.reference.accompagnement_land[2]%>  
+          <br> <%= data.references.reference.accompagnement_land[3]%>
+          <br> <%= data.references.reference.accompagnement_land[4]%> </p>
+          <p> Retrouver les retombées presse sur le site de Land <a href="https://www.agenceland.com/actus.html" target="_blank"> ici.</a> </p>
       </div>
     </div>
-    <div class="col-lg-4">
-      <img src="/images/fabriqueeffets.png" alt="image" class="img-responsive center-block" />
-    </div>
-  </div> 
+  </div>
   <div class="flex" style="margin-bottom:20px">
-    <div class="col-lg-4">
-      <img src="/images/logolabel.png" alt="Label Bio" style="height: 200px" class="img-responsive center-block" />
-    </div>
     <div class="col-xs-12 col-lg-8">
       <div id="label">
         <h1> <%= data.references.reference.name[2] %> </h1>
@@ -190,27 +183,52 @@ title: Make My Day Relation Presse
         </p>
       </div>
     </div>
+    <div class="col-lg-4">
+      <img src="/images/logolabel.png" alt="Label Bio" style="height: 200px" class="img-responsive center-block" />
+    </div>
   </div> 
-  <div class="flex-reverse" style="margin-bottom:20px">
+    <div class="flex-reverse" style="margin-bottom:20px">
+      <div class="col-lg-4">
+        <img src="/images/fabriqueeffets.png" alt="image" class="img-responsive center-block" />
+      </div>
     <div class="col-xs-12 col-lg-8">
-      <div id="medecin">
-        <h1> <%= data.references.reference.name[3] %> </h1>
+      <div id="fabrique">
+        <h1> <%= data.references.reference.name[1] %> </h1>
         <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_medecin %> </p>
+          <p> <%= data.references.reference.contexte_fabrique%> </p>
           <br>
           <br>
         <h3> <%= data.references.reference.accompagnement %> </h3>
-          <p> <%= data.references.reference.accompagnement_medecin[0] %> 
-          <br> <%= data.references.reference.accompagnement_medecin[1]%>           
-          <br> <%= data.references.reference.accompagnement_medecin[2]%>  
-          <br> <%= data.references.reference.accompagnement_medecin[3]%>
-          <br> <%= data.references.reference.accompagnement_medecin[4]%> </p>
+          <p> <%= data.references.reference.accompagnement_fabrique[0] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[1] %>
+            <br> <%= data.references.reference.accompagnement_fabrique[2] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[3] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[4] %> </p>
       </div>
     </div>
-    <div class="col-lg-4">
-      <img src="/images/riremedecin.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
-    </div> 
-  </div>
+  </div> 
+  <div class="flex" style="margin-bottom:20px">
+    <div class="col-xs-12 col-lg-8 ">
+      <div id="building">
+        <h1> <%= data.references.reference.name[0] %> </h1>
+        <h3> <%= data.references.reference.context %> </h3>
+          <p> <%= data.references.reference.contexte_petitbuilding %> </p>
+          <br>
+          <br>
+        <h3> <%= data.references.reference.accompagnement %> </h3>
+          <p> <%= data.references.reference.accompagnement_petitbuilding[0]%> 
+          <br>  <%= data.references.reference.accompagnement_petitbuilding[1]%>
+          <br> <%= data.references.reference.accompagnement_petitbuilding[2]%>
+          <br> <%= data.references.reference.accompagnement_petitbuilding[3]%>
+          <br> <%= data.references.reference.accompagnement_petitbuilding[4]%></p>
+      </div>
+    </div>  
+    <div class="col-lg-4 ">
+      <img src="/images/Ptit_Building.png" alt="image" class="img-responsive center-block" />
+    </div>
+  </div> 
+
+  
 </div>
 </section>
 
