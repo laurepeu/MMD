@@ -1,7 +1,7 @@
 reference:
   context: "Contexte"
   accompagnement: "Accompagnement"
-  name: ["P'tit Building", "La fabrique d'effets", 'Meilleurs Produits Bio', 'Le Rire Medecin', 'Land Territoires', 'Dans le noir']
+  name: ["P'tit Building", "La fabrique d'effets", 'Meilleurs Produits Bio', 'Le Rire Médecin', 'Land Territoires', 'SILO']
   contexte_petitbuilding: "Lancement de la start-up, plateforme collaborative autour du bricolage et de la décoration"
   accompagnement_petitbuilding: ['Conception des outils de communication dossier de presse, contenu web, base iconographique', 'Stratégie de communication media globale via la presse spécialisée et les influenceurs', 'Optimisation de la présence de la marque et des porte-paroles sur les réseaux sociaux' ]
   contexte_fabrique: "Création du premier concept-store Fleurs de saison & Vins biodynamiques de Paris"
@@ -10,7 +10,7 @@ reference:
   accompagnement_bio: ['Conception d’un Dossier de Presse', 'Campagne de relations presse à l’issue de l’annonce du palmarès', 'Organisation et animation d’un Atelier presse en marge de la cérémonie de remise de prix', 'Suivi des retombées presse nationales, régionales et internationales autour des lauréats 2017']
   contexte_medecin: "L’association pionnière des clowns hospitaliers a 27 ans et veut dynamiser sa notoriété dans un environnement concurrentiel."
   accompagnement_medecin: ['Elaboration d’une stratégie médiatique innovante visant à repositionner l’association vers une cible plus jeune, plus féminine, plus active.', 'Suivi des relations presse au quotidien dans un accompagnement annuel. ', 'Conseil éditorial, création de contenus : dossier de presse, communiqués de presse. ', 'Organisation de reportages au sein des hôpitaux où les comédiens-clowns sont présents. ']
-  contexte_land: "Accompagner une agence de paysagistes jeune et dynamique dans la mise en place d’une stratégie de communication et dans le développant de sa notoriété et de sa visibilité dans les médias."
-  accompagnement_land: ['Mise en place d’une stratégie médiatique globale, incluant la communication sur les réseaux sociaux.', 'Réalisation d’outils de communication (dossier de presse, contenu web, base iconographique)', 'animation et activité sur les réseaux sociaux.','Lancement de plusieurs campagnes de relations presse, puis suivi des retombées presse.', 'Mise en place d’un Story-telling autour de la jeune fondatrice de l’agence LAND, Claire Peucelle.', 'Suivi des relations presse au quotidien dans un accompagnement de confiance depuis un an. ']
-  contexte_noir: ""
-  accompagnement_noir: ['']
+  contexte_land: "La jeune agence d'architectes paysagistes est en demande d'une stratégie de communication globale pour développer sa notoriété et être visible dans les médias."
+  accompagnement_land: ['Mise en place d’une stratégie médiatique globale, incluant la communication sur les réseaux sociaux.', 'Réalisation d’outils de communication (dossier de presse, contenu web, base iconographique)', 'Création de compte, animation des réseaux sociaux.','Lancement de plusieurs campagnes de relations presse', 'Suivi des retombées presse.', 'Mise en place d’un Story-telling autour de la jeune fondatrice de l’agence LAND.', 'Suivi des relations presse au quotidien dans un accompagnement de confiance depuis un an. ']
+  contexte_silo: "Le Salon International du Livre Océanien en Nouvelle-Calédonie change d’organisateur et souhaite dynamiser sa programmation et développer sa notoriété, notamment avec des têtes d’affiche de métropole comme invités d’honneur."
+  accompagnement_silo: ['Relais parisien du SILO et mise en place de relations publiques.', 'Accompagnement des invités sur toute la période du Salon en Nouvelle-Calédonie.', 'Préparation du Salon, sélection des invités d’honneur et role d’intermediaire entre ces auteurs et le SILO.']
