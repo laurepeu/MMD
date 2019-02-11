@@ -104,39 +104,40 @@ title: Make My Day Relation Presse
   <div class="flex">
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#medecin"> <img src="/images/riremedecin.jpg" style="height: 50px" alt="Rire Medecin" class="img-responsive center-block" /></a>
+        <a href="#medecin"> <img src="/images/riremedecin.jpg" id="img_medecin" style="height: 50px" alt="Rire Medecin" class="img-responsive center-block" /></a>
       </div>
     </div>
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#land"> <img src="/images/land.jpg" alt="land territoires" class="img-responsive center-block" /></a>
+        <a href="#land"> <img src="/images/land.jpg" id="img_land" alt="land territoires" class="img-responsive center-block" /></a>
       </div>
     </div>
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#label"> <img src="/images/logolabel.png" style="height: 60px" alt="Meilleurs produits bio" class="img-responsive center-block" /> </a>
+        <a href="#label"> <img src="/images/logolabel.png" id="img_label" style="height: 60px" alt="Meilleurs produits bio" class="img-responsive center-block" /> </a>
       </div>
     </div>
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#fabrique"> <img src="/images/fabriqueeffets.png" alt="la fabrique d'effets" class="img-responsive center-block" /></a>
+        <a href="#fabrique"> <img src="/images/fabriqueeffets.png" id="img_fabrique" alt="la fabrique d'effets" class="img-responsive center-block" /></a>
       </div>
     </div>
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#building"> <img src="/images/Ptit_Building.png" alt="Ptit Building" class="img-responsive center-block" /> </a>
+        <a href="#building"> <img src="/images/Ptit_Building.png" id="img_building" alt="Ptit Building" class="img-responsive center-block" /> </a>
       </div>
     </div>
     <div class="col-lg-3">
       <div id="grow">
-        <a href="#silo"> <img src="/images/silo.png" alt="silo" class="img-responsive center-block" /></a>
+        <a href="#silo"> <img src="/images/silo.png" alt="silo" id="img_silo" class="img-responsive center-block" /></a>
       </div>
   </div>
   </div>
 </section>
 
-<section class=references>
-<div class="container">
+<section class=references_section>
+  <div class="container">
+    
     <div class="flex-reverse" style="margin-bottom:20px">
         <div class="col-xs-12 col-lg-8">
           <div id="medecin">
@@ -155,77 +156,77 @@ title: Make My Day Relation Presse
           </div>
         </div>
         <div class="col-lg-4">
-          <img src="/images/riremedecin.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
+          <img src="/images/riremedecin.jpg" alt="Le Rire Medecin" class="img-responsive center-block" id="img_medecin"/>
         </div> 
     </div>
-    <div class="flex-reverse" style="margin-bottom:20px">
-    <div class="col-lg-4">
-    <img src="https://www.agenceland.com/img/landlogonoir.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
-  </div> 
-    <div class="col-xs-12 col-lg-8">
-      <div id="land">
-        <h1> <%= data.references.reference.name[4] %> </h1>
-        <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_land %> </p>
-          <br>
-          <br>
-        <h3> <%= data.references.reference.accompagnement %> </h3>
-          <p> <%= data.references.reference.accompagnement_land[0] %> 
-          <br> <%= data.references.reference.accompagnement_land[1]%>           
-          <br> <%= data.references.reference.accompagnement_land[2]%>  
-          <br> <%= data.references.reference.accompagnement_land[3]%>
-          <br> <%= data.references.reference.accompagnement_land[4]%> </p>
-          <p> Retrouver les retombées presse sur le site de Land <a href="https://www.agenceland.com/actus.html" target="_blank"> ici.</a> </p>
-      </div>
-    </div>
-  </div>
-  <div class="flex" style="margin-bottom:20px">
-    <div class="col-xs-12 col-lg-8">
-      <div id="label">
-        <h1> <%= data.references.reference.name[2] %> </h1>
-        <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_bio %> </p>
-          <br>
-          <br>
-        <h3> <%= data.references.reference.accompagnement %> </h3>
-        <p> 
-        <%= data.references.reference.accompagnement_bio[0] %> 
-        <br>
-        <%= data.references.reference.accompagnement_bio[1] %>  
-        <br>
-        <%= data.references.reference.accompagnement_bio[2] %> 
-        <br>
-        <%= data.references.reference.accompagnement_bio[3] %>  
-        <br>
-        <%= data.references.reference.accompagnement_bio[4] %> 
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <img src="/images/logolabel.png" alt="Label Bio" style="height: 200px" class="img-responsive center-block" />
-    </div>
-  </div> 
-  <div class="flex-reverse" style="margin-bottom:20px">
+    <div class="flex" style="margin-bottom:20px">
       <div class="col-lg-4">
-        <img src="/images/fabriqueeffets.png" alt="image" class="img-responsive center-block" />
-      </div>
+        <img src="https://www.agenceland.com/img/landlogonoir.jpg" alt="Le Rire Medecin" class="img-responsive center-block" />
+      </div> 
       <div class="col-xs-12 col-lg-8">
-        <div id="fabrique">
-          <h1> <%= data.references.reference.name[1] %> </h1>
+        <div id="land">
+          <h1> <%= data.references.reference.name[4] %> </h1>
           <h3> <%= data.references.reference.context %> </h3>
-            <p> <%= data.references.reference.contexte_fabrique%> </p>
+            <p> <%= data.references.reference.contexte_land %> </p>
             <br>
             <br>
           <h3> <%= data.references.reference.accompagnement %> </h3>
-            <p> <%= data.references.reference.accompagnement_fabrique[0] %> 
-              <br> <%= data.references.reference.accompagnement_fabrique[1] %>
-              <br> <%= data.references.reference.accompagnement_fabrique[2] %> 
-              <br> <%= data.references.reference.accompagnement_fabrique[3] %> 
-              <br> <%= data.references.reference.accompagnement_fabrique[4] %> </p>
+            <p> <%= data.references.reference.accompagnement_land[0] %> 
+            <br> <%= data.references.reference.accompagnement_land[1]%>           
+            <br> <%= data.references.reference.accompagnement_land[2]%>  
+            <br> <%= data.references.reference.accompagnement_land[3]%>
+            <br> <%= data.references.reference.accompagnement_land[4]%> </p>
+            <p> Retrouver les retombées presse sur le site de Land <a href="https://www.agenceland.com/actus.html" target="_blank"> ici.</a> </p>
         </div>
+      </div>
+    </div>
+    <div class="flex-reverse" style="margin-bottom:20px">
+      <div class="col-xs-12 col-lg-8">
+        <div id="label">
+          <h1> <%= data.references.reference.name[2] %> </h1>
+          <h3> <%= data.references.reference.context %> </h3>
+            <p> <%= data.references.reference.contexte_bio %> </p>
+            <br>
+            <br>
+          <h3> <%= data.references.reference.accompagnement %> </h3>
+          <p> 
+          <%= data.references.reference.accompagnement_bio[0] %> 
+          <br>
+          <%= data.references.reference.accompagnement_bio[1] %>  
+          <br>
+          <%= data.references.reference.accompagnement_bio[2] %> 
+          <br>
+          <%= data.references.reference.accompagnement_bio[3] %>  
+          <br>
+          <%= data.references.reference.accompagnement_bio[4] %> 
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <img src="/images/logolabel.png" alt="Label Bio" style="height: 200px" class="img-responsive center-block" id="img_label"/>
       </div>
   </div> 
   <div class="flex" style="margin-bottom:20px">
+    <div class="col-lg-4">
+      <img src="/images/fabriqueeffets.png" alt="image" class="img-responsive center-block" />
+    </div>
+    <div class="col-xs-12 col-lg-8">
+      <div id="fabrique">
+        <h1> <%= data.references.reference.name[1] %> </h1>
+        <h3> <%= data.references.reference.context %> </h3>
+          <p> <%= data.references.reference.contexte_fabrique%> </p>
+          <br>
+          <br>
+        <h3> <%= data.references.reference.accompagnement %> </h3>
+          <p> <%= data.references.reference.accompagnement_fabrique[0] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[1] %>
+            <br> <%= data.references.reference.accompagnement_fabrique[2] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[3] %> 
+            <br> <%= data.references.reference.accompagnement_fabrique[4] %> </p>
+      </div>
+    </div>
+  </div> 
+  <div class="flex-reverse" style="margin-bottom:20px">
     <div class="col-xs-12 col-lg-8 ">
       <div id="building">
         <h1> <%= data.references.reference.name[0] %> </h1>
@@ -242,27 +243,27 @@ title: Make My Day Relation Presse
       </div>
     </div>  
     <div class="col-lg-4 ">
-      <img src="/images/Ptit_Building.png" alt="image" class="img-responsive center-block" />
+      <img src="/images/Ptit_Building.png" alt="image" class="img-responsive center-block" id="img_building" />
     </div>
   </div> 
-    <div class="flex-reverse" style="margin-bottom:20px">
-      <div class="col-lg-4">
-        <img src="/images/silo.png" alt="silo" class="img-responsive center-block" />
+  <div class="flex" style="margin-bottom:20px">
+    <div class="col-lg-4">
+      <img src="/images/silo.png" alt="silo" class="img-responsive center-block" />
+    </div>
+    <div class="col-xs-12 col-lg-8">
+      <div id="silo">
+        <h1> <%= data.references.reference.name[5] %> </h1>
+        <h3> <%= data.references.reference.context %> </h3>
+        <p> <%= data.references.reference.contexte_silo%> </p>
+        <br>
+        <br>
+      <h3> <%= data.references.reference.accompagnement %> </h3>
+        <p> <%= data.references.reference.accompagnement_silo[0] %> 
+          <br> <%= data.references.reference.accompagnement_silo[1] %>
+          <br> <%= data.references.reference.accompagnement_silo[2] %> 
+          <br> <%= data.references.reference.accompagnement_silo[3] %>  </p>
       </div>
-      <div class="col-xs-12 col-lg-8">
-        <div id="silo">
-          <h1> <%= data.references.reference.name[6] %> </h1>
-          <h3> <%= data.references.reference.context %> </h3>
-          <p> <%= data.references.reference.contexte_silo%> </p>
-          <br>
-          <br>
-        <h3> <%= data.references.reference.accompagnement %> </h3>
-          <p> <%= data.references.reference.accompagnement_silo[0] %> 
-            <br> <%= data.references.reference.accompagnement_silo[1] %>
-            <br> <%= data.references.reference.accompagnement_silo[2] %> 
-            <br> <%= data.references.reference.accompagnement_silo[3] %>  </p>
-        </div>
-      </div>
+    </div>
   </div>
 </div>
 </section>

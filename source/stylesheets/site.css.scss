@@ -382,13 +382,13 @@ FORM
           width: 150px;
           height: 200px;
       }
-      #medecin, #label, #fabrique, #building{
+      #medecin, #label, #fabrique, #building, #land, #silo{
         text-align: justify;
         width: 270px;
     }
 
-    h3 {
-        font-size: 18px;
+    h3,h1 {
+        font-size: 20px;
     }
 
     #contact_form {
@@ -416,13 +416,13 @@ FORM
           width: 150px;
           height: 200px;
       }
-      #medecin, #label, #fabrique, #building{
+      #medecin, #label, #fabrique, #building, #land, #silo{
         text-align: justify;
         width: 270px;
     }
 
-    h3 {
-        font-size: 18px;
+    h3,h1 {
+        font-size: 20px;
     }
 }
 
@@ -440,13 +440,14 @@ FORM
     //     width: 150px;
     //     height: 200px;
     // }
-    #medecin, #label, #fabrique, #building{
+    #medecin, #label, #fabrique, #building, #land, #silo{
         text-align: justify;
     }
 
-    h3 {
-        font-size: 18px;
+    h3,h1 {
+        font-size: 20px;
     }
+
     
   }
 
@@ -456,6 +457,17 @@ FORM
       width: 970px;
     }
 
+    #big-logo{
+        height:100px;
+    }
+
+    #msg1, #msg2{
+        font-size: 12px;
+    }
+
+    #msg3{
+        font-size:18px;
+    }
     .flex{
         display: flex;
         flex-wrap: wrap;
@@ -484,15 +496,146 @@ FORM
     #msg1, #msg2, #msg3 {
         margin: 0;
     }
-    #medecin, #label, #fabrique, #building{
+    #medecin, #label, #fabrique, #building, #land, #silo{
         text-align: justify;
         width: 270px;
     }
 
-    h3 {
-        font-size: 18px;
+    h3,h1 {
+        font-size: 20px;
     }
-  }
+
+    #img_medecin, #img_land,#img_label,#img_building,#img_silo,#img_fabrique{
+        height:100px;
+    }
+
+.animated-words span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-size: 15px;
+    font-weight: normal;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(3) { 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 4s; 
+    font-weight: bolder;
+    font-size: 20px;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+}
+
+.animated-words span:nth-child(5) { 
+    -webkit-animation-delay: 85; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 6s; 
+    font-weight: lighter;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(6) { 
+    -webkit-animation-delay: 2s; 
+    -ms-animation-delay: 2s; 
+    animation-delay: 6s; 
+    font-size: 10px;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(7) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 6s; 
+    font-size: 30px;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(8) { 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 6s; 
+
+}
+.animated-words span:nth-child(9) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-size: 10px;
+    font-weight: lighter;
+}
+.animated-words span:nth-child(10) { 
+    -webkit-animation-delay: 4s; 
+    -ms-animation-delay: 4s; 
+    animation-delay: 4s; 
+    font-size: 20px;
+    font-weight: bolder;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(11) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-size: 10px;
+    font-weight: bolder;
+    color: $rose-color;
+}
+
+.animated-words span:nth-child(12) { 
+    -webkit-animation-delay: 5s; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 5s; 
+    font-size: 25px;
+    color: $rose-color;
+    
+}
+
+.animated-words span:nth-child(13) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+    font-size: 15px;
+}
+
+.animated-words span:nth-child(14) { 
+    -webkit-animation-delay: 5s; 
+    -ms-animation-delay: 5s; 
+    animation-delay: 5s; 
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.animated-words span:nth-child(15) { 
+    -webkit-animation-delay: 8s; 
+    -ms-animation-delay: 8s; 
+    animation-delay: 8s; 
+    font-size: 13px;
+    font-family: articulat-thin;
+}
+
+.animated-words span:nth-child(16) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    font-weight: bolder;
+    font-size: 40px;
+}
+.animated-words span {
+    opacity: 0;
+    margin: 0 10px 0 10px;
+    -webkit-animation: animateWord 18s linear infinite 0s;
+    -ms-animation: animateWord 18s linear infinite 0s;
+    animation: animateWord 18s linear infinite 0s;
+    font-family: articulat-thin;
+}
+}
 
   // MEDIA 1200 px 
   @media (min-width: 1200px) {
@@ -500,9 +643,15 @@ FORM
       width: 1170px;
     }
 
-    h3 {
+    h3, h1 {
         font-size: 20px;
     }
+
+
+    // #img_medecin, #img_land,#img_label,#img_building,#img_silo,#img_fabrique{
+    //     height:100px;
+    // }
+
 
   }
 
