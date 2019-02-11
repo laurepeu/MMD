@@ -13,6 +13,27 @@ $(document).ready(function () {
     $('#msg3').hide().fadeIn(20000);
 });
 
+//  slick librairy
+    
+
+function initSlider(){
+  $('.references').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    adaptiveHeight: true,
+    autoplay: true,
+    prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
+    nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
+  });
+}
+
+$(document).ready(function() {
+initSlider();
+});
 
 // Make the letters appears ! 
 var showText1 = function (target, message, index, interval) {    
@@ -64,4 +85,6 @@ $(function(){
     }
     });
     });
+
+
 
