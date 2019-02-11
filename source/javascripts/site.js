@@ -22,12 +22,13 @@ function initSlider(){
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    slidesToScroll: 10,
     centerMode: true,
     variableWidth: true,
     adaptiveHeight: true,
     autoplay: true,
-    prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
-    nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
+    prevArrow: '<div class="slick-prev"><i class favarrow="fas fa-chevron-left"></i></div>',
+    nextArrow: '<div class="slick-next"><i class favarrow="fas fa-chevron-right"></i></div>'
   });
 }
 
