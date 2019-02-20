@@ -86,8 +86,10 @@ section {
 
 #medecin, #label, #fabrique, #building, #land, #silo{
     text-align: justify;
+}
 
-
+#img_label,#img_silo,#img_medecin, #img_land,#img_building,#img_fabrique{
+    height:50px;
 }
 #sdore {
     width: 283px;
@@ -505,10 +507,14 @@ FORM
         font-size: 20px;
     }
 
-    #img_medecin, #img_land,#img_label,#img_building,#img_silo,#img_fabrique{
-        height:100px;
+    #img_label,#img_silo{
+        height:50px;
     }
 
+    #img_medecin, #img_land,#img_building,#img_fabrique{
+        height:30px;
+    }
+    
 .animated-words span:nth-child(2) { 
     -webkit-animation-delay: 3s; 
     -ms-animation-delay: 3s; 
@@ -676,4 +682,9 @@ FORM
     color:black;
     background-color: #b44a3729;
     margin-right:10px;
+}
+
+.references-img{
+    display: flex;
+    flex-wrap: wrap;
 }
